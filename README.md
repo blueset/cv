@@ -46,7 +46,7 @@ _PHP · SQL · CodeIgniter · HTML · CSS · JavaScript_<br>
 * Image generator with detailed typesetting options constructed with PHP GD+ library
 
 #### 1A23 Service Bot — A Telegram Chatbot as a school information portal
-__Python 3 · RESTful API · HTTP API Wrapping __<br>
+__Python 3 · RESTful API · HTTP API Wrapping__<br>
 [github.com/blueset/SvcBot1A23](https://github.com/blueset/SvcBot1A23)
 
 * Python on Apache with WSGI interface
