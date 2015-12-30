@@ -3,13 +3,9 @@ Software/Web Development Intern
 <hr>
 
 [View Full Version](https://cv.1a23.com)
-[Download PDF version](https://cv.1a23.com/Han-Jin_Software-Web-Developement-Intern.pdf)
-[中文简历](https://cv.1a23.com/index-zh-cn.html)
-[下载打印版](https://cv.1a23.com/韩今-简历-Web-前后端、软件开发实习.pdf)
+[中文简历](https://cv.1a23.com/index-zh-cn.php)
 
-* Location: Singapore & Hebei, China
 * Website: [1A23.com](http://1a23.com)
-* Phone: +86 155-3087-5251 / +1 (424) 341 2230 
 * Github: [Blueset](https://github.com/blueset)
 * Telegram: [Blueset](http://telegram.me/blueset)
 * E-mail: [han.jin@1A23.com](mailto:han.jin@1A23.com)
