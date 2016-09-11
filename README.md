@@ -1,4 +1,4 @@
-# [Han Jin](http://cv.1a23.com)
+# [Eana Hufwe](http://cv.1a23.com)
 Software/Web Development Intern
 <hr>
 
@@ -35,6 +35,26 @@ TCP/IP · HTTP
 Sublime Text · Git · Bash · Markdown · Chrome Developer Tools · Visual Studio · Vim · RegEx
 
 ## Professional Experience ([more...](https://cv.1a23.com/#projects))
+
+#### Eanois CMS — A CMS system based on Laravel
+_PHP · SQLite · Laravel · AngularJS · Sass · Eloquent_  
+[https://github.com/blueset/eanois](https://github.com/blueset/eanois)  
+* Full CMS with Markdown parsing and upload management
+* Cross-language slug generation with PHP I18N and External API
+* Generic theming solution with unified API for AngularJS
+* Dynamic Sitemap and RSS generation based on Theme config
+* Extensible category/tag-specific template config
+* Fetch external RSS content
+* AngularJS enabled front-end in HTML5 mode
+
+#### EH Forwarder Bot — A extendible chat tunnel between different services
+_Python 3 · Threading · Telegram Bot · WeChat Web API · Reverse Engineering_
+[https://github.com/blueset/ehforwarderbot](https://github.com/blueset/ehforwarderbot)  
+* Extendible Bot framework based on threading
+* Efficient inter-thread communication with Python Queue
+* Multimedia identification, format/encoding conversion
+* Interact with external API and reversed engineered interfaces
+
 #### Project Lyricova — A blog system focused on lyrics
 _PHP · SQL · CodeIgniter · HTML · CSS · JavaScript_<br>
 [blueset.github.io/project-lyricova](http://blueset.github.io/project-lyricova)

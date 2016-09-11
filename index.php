@@ -57,7 +57,13 @@
                         <div class="section-title ribbon-left-content ribbon-left-green-content">Education</div>
                     </div>
                     <p>
-                        <strong class="text-lgreen">GCE 'A' Level (Pending), <time>2015</time></strong><br>
+                        <strong class="text-lgreen">BSc Computing and Software Engineering (On-going), <time>2019</time></strong><br>
+                        — <span itemprop="alumniOf" itemscope itemtype="http://schema.org/EducationalOrganization">
+                            <link href="https://www.unimelb.edu.au/" itemprop="url"><span itemprop="name">University of Melbourne</span>
+                        </span>
+                    </p>
+                    <p>
+                        <strong class="text-lgreen">GCE 'A' Level, <time>2015</time></strong><br>
                         — <span itemprop="alumniOf" itemscope itemtype="http://schema.org/EducationalOrganization">
                             <link href="http://ajc.edu.sg/" itemprop="url"><span itemprop="name">Anderson Junior College, Singapore</span>
                         </span>
@@ -86,6 +92,7 @@
                             <i class="fa fa-circle"></i>
                             <i class="fa fa-circle"></i>
                             <i class="fa fa-circle"></i>
+                            <br> Native
                         </dd>
                         <dt class="text-lorange">English</dt>
                         <dd class="dd-stars-lorange">
@@ -97,17 +104,19 @@
                             <i class="fa fa-circle"></i>
                             <i class="fa fa-circle-o"></i>
                             <i class="fa fa-circle-o"></i>
+                            <br> Professional, IELTS Academic 8.0
                         </dd>
                         <dt class="text-lorange">Japanese</dt>
                         <dd class="dd-stars-lorange">
                             <i class="fa fa-circle"></i>
                             <i class="fa fa-circle"></i>
+                            <i class="fa fa-circle"></i>
+                            <i class="fa fa-circle"></i>
                             <i class="fa fa-circle-o"></i>
                             <i class="fa fa-circle-o"></i>
                             <i class="fa fa-circle-o"></i>
                             <i class="fa fa-circle-o"></i>
-                            <i class="fa fa-circle-o"></i>
-                            <i class="fa fa-circle-o"></i>
+                            <br> Basic reading and speaking
                         </dd>
                     </dl>
                 </section>
@@ -168,7 +177,7 @@
                             <i class="fa fa-circle-o"></i>
                             <i class="fa fa-circle-o"></i>
                         </dd>
-                        <dt>SQL</dt>
+                        <dt>C++</dt>
                         <dd class="dd-stars">
                             <i class="fa fa-circle"></i>
                             <i class="fa fa-circle"></i>
@@ -181,30 +190,29 @@
                     </dl>
                     <div class="section-subtitle section-subtitle-red">Other skills, tools, platforms</div>
                     <div class="label-list">
-                        <span class="label label-red">C++</span>
-                        <span class="label label-red">Pascal</span>
-                        <span class="label label-red">Java</span>
+                        <span class="label label-red">SQL</span>
+                        <span class="label label-red">AngularJS</span>
                         <span class="label label-red">OS X</span>
                         <span class="label label-red">Linux/Unix</span>
                         <span class="label label-red">Windows</span>
                         <span class="label label-red">Android</span>
                         <span class="label label-red">Sass</span>
                         <span class="label label-red">Twig</span>
-                        <span class="label label-red">LaTeX</span>
                         <span class="label label-red">MVC Structure</span>
                         <span class="label label-red">RESTful API</span>
                         <span class="label label-red">Git</span>
-                        <span class="label label-red">Sublime Text 3</span>
-                        <span class="label label-red">Zsh</span>
                         <span class="label label-red">Markdown</span>
+                        <span class="label label-red">Sublime Text 3</span>
+                        <span class="label label-red">LaTeX</span>
+                        <span class="label label-red">Laravel</span>
+                        <span class="label label-red">Pascal</span>
+                        <span class="label label-red">Wordpress</span>
+                        <span class="label label-red">Zsh</span>
                         <span class="label label-red">Chrome Developer Tools</span>
                         <span class="label label-red">Visual Studio</span>
                         <span class="label label-red">RegEx</span>
-                        <span class="label label-red">Vim</span>
                         <span class="label label-red">CodeIgniter</span>
-                        <span class="label label-red">Laravel</span>
                         <span class="label label-red">Twitter Bootstrap</span>
-                        <span class="label label-red">Wordpress</span>
                         <span class="label label-red">Django</span>
                         <span class="label label-red">Bolt CMS</span>
                         <span class="label label-red">HTTP</span>
@@ -213,6 +221,35 @@
                 </section>
                 <section id="projects">
                     <div class="section-title section-right-title section-title-dark">Professional Experience</div>
+                    <summary class="section-subtitle section-subtitle-dark">
+                        Eanois CMS — A CMS system based on Laravel
+                        <div class="section-subtitle-2 section-subtitle-dark">
+                            PHP · SQLite · Laravel · AngularJS · Sass · Eloquent<br>
+                            <a target="_blank" href="https://github.com/blueset/n1laravel">https://github.com/blueset/n1laravel</a>
+                        </div>
+                    </summary>
+                    <ul>
+                        <li>Full CMS with Markdown parsing and upload management</li>
+                        <li>Cross-language slug generation with PHP I18N and External API</li>
+                        <li>Generic theming solution with unified API for AngularJS</li>
+                        <li>Dynamic Sitemap and RSS generation based on Theme config</li>
+                        <li>Extensible category/tag-specific template config</li>
+                        <li>Fetch external RSS content</li>
+                        <li>AngularJS enabled front-end in HTML5 mode</li>
+                    </ul>
+                    <summary class="section-subtitle section-subtitle-dark">
+                        EH Forwarder Bot — A extendible chat tunnel between different services
+                        <div class="section-subtitle-2 section-subtitle-dark">
+                            Python 3 · Threading · Telegram Bot · WeChat Web API · Reverse Engineering<br>
+                            <a target="_blank" href="https://github.com/blueset/ehforwarderbot">https://github.com/blueset/ehforwarderbot</a>
+                        </div>
+                    </summary>
+                    <ul>
+                        <li>Extendible Bot framework based on threading</li>
+                        <li>Efficient inter-thread communication with Python Queue</li>
+                        <li>Multimedia identification, format/encoding conversion</li>
+                        <li>Interact with external API and reversed engineered interfaces</li>
+                    </ul>
                     <summary class="section-subtitle section-subtitle-dark">
                         Project Lyricova — A blog system focused on lyrics
                         <div class="section-subtitle-2 section-subtitle-dark">
