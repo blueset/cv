@@ -225,7 +225,7 @@
                         Eanois CMS — A CMS system based on Laravel
                         <div class="section-subtitle-2 section-subtitle-dark">
                             PHP · SQLite · Laravel · AngularJS · Sass · Eloquent<br>
-                            <a target="_blank" href="https://github.com/blueset/n1laravel">https://github.com/blueset/n1laravel</a>
+                            <a target="_blank" href="https://github.com/blueset/eanois">https://github.com/blueset/eanois</a>
                         </div>
                     </summary>
                     <ul>
