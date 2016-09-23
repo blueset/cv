@@ -21,7 +21,7 @@
                     <?php if ($pdf): ?>
                     <a target="_blank" href="<?php=$pdfurl?>"><span class="fa-stack fa-lg"><i class="fa fa-circle fa-stack-2x"></i><i class="fa fa-download fa-stack-1x fa-inverse"></i></span></a>
                 <?php endif; ?>
-                    <a href="index-zh-cn.php<?php if($has_para){echo "?".$parameter;} ?>"><span class="fa-stack fa-lg"><i class="fa fa-circle fa-stack-2x"></i><i class="fa fa-stack-1x fa-inverse">中</i></span></a>
+                    <!--<a href="index-zh-cn.php<?php if($has_para){echo "?".$parameter;} ?>"><span class="fa-stack fa-lg"><i class="fa fa-circle fa-stack-2x"></i><i class="fa fa-stack-1x fa-inverse">中</i></span></a>-->
                 </div>
                 <img src="images/logo4square.svg" alt="" class="namecard-photo">
                 <div class="namecard-name" itemprop="name"><?=$name?></div>
@@ -36,7 +36,7 @@
                     <span class="namecard-tag"><i class="fa fa-fw fa-paper-plane"></i> Telegram: <a target="_blank" href="https://telegram.me/blueset" itemprop="sameAs">Blueset</a></span>
                     <br/>
                     <span class="namecard-tag"><i class="fa fa-fw fa-github"></i> GitHub: <a target="_blank" href="https://github.com/blueset" itemprop="sameAs">Blueset</a></span>
-                    <span class="namecard-tag"><i class="fa fa-fw fa-envelope"></i> E-mail: <a href="mailto:han.jin@1a23.com" itemprop="email">han.jin@1A23.com</a></span>
+                    <span class="namecard-tag"><i class="fa fa-fw fa-envelope"></i> E-mail: <a href="mailto:<?=$email?>" itemprop="email"><?=$email?></a></span>
                 </div>
             </div>
         </div>

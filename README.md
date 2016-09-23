@@ -1,14 +1,14 @@
-# [Eana Hufwe](http://cv.1a23.com)
+# [Eana Hufwe](https://cv.1a23.com)
 Software/Web Development Intern
 <hr>
 
 [View Full Version](https://cv.1a23.com)
-[中文简历](https://cv.1a23.com/index-zh-cn.php)
+<!--[中文简历](https://cv.1a23.com/index-zh-cn.php)-->
 
-* Website: [1A23.com](http://1a23.com)
+* Website: [1A23.com](https://1a23.com)
 * Github: [Blueset](https://github.com/blueset)
 * Telegram: [Blueset](http://telegram.me/blueset)
-* E-mail: [han.jin@1A23.com](mailto:han.jin@1A23.com)
+* E-mail: [ilove@1A23.com](mailto:ilove@1A23.com)
 
 ## Profile
 Determined, passionate, hard-working programmer with high motivation. Experienced in multiple programing languages with passion to dig in depth. Known to be a good team worker and leader. Willing to learn new skills, modest and open-minded.
@@ -17,7 +17,9 @@ Determined, passionate, hard-working programmer with high motivation. Experience
 Gain experience of working in an IT company as a software/web developer, learn new skills and techniques of software/web development and get to know about the real-life workflow of making a product.
 
 ## Education
-__GCE 'A' Level (Pending), 2015__<br>
+__BSc Computing and Software Engineering (On-going), 2019__<br>
+— University of Melbourne  
+__GCE 'A' Level, 2015__<br>
 — Anderson Junior College, Singapore
 
 ## Technical Skills
