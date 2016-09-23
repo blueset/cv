@@ -38,7 +38,7 @@
 <?php endif;?>
 <div class="tag"><i class="fa fa-fw fa-paper-plane"></i> <a href="//telegram.me/blueset">Blueset</a></div>
                     <div class="tag"><i class="fa fa-fw fa-github"></i> <a href="//github.com/blueset">Blueset</a></div>
-                    <div class="tag"><i class="fa fa-fw fa-envelope"></i> <a href="mailto:han.jin@1a23.com">han.jin@1A23.com</a></div>
+                    <div class="tag"><i class="fa fa-fw fa-envelope"></i> <a href="mailto:<?=$email?>"><?=$email?></a></div>
                 </div>
             </div>
         </div>
