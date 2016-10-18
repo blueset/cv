@@ -28,7 +28,7 @@
                 <div class="namecard-name" itemprop="name"><?=$name_zh?></div>
                 <div class="namecard-contact">
                     <?php if ($phone): ?>
-                        <span class="namecard-tag"><i class="fa fa-fw fa-phone"></i> 电话: 
+                        <span class="namecard-tag"><i class="fa fa-fw fa-phone"></i> 电话:
                         <?= implode(" / ",array_map(function($v, $k){return '<a href="tel:'.$k.'">'.$v.'</a>';}, $phones, array_keys($phones))); ?>
                         </span>
                         <br/>
@@ -37,7 +37,7 @@
                     <span class="namecard-tag"><i class="fa fa-fw fa-paper-plane"></i> Telegram: <a target="_blank" href="https://telegram.me/blueset" itemprop="sameAs">Blueset</a></span>
                     <br/>
                     <span class="namecard-tag"><i class="fa fa-fw fa-github"></i> GitHub: <a target="_blank" href="https://github.com/blueset" itemprop="sameAs">Blueset</a></span>
-                    <span class="namecard-tag"><i class="fa fa-fw fa-envelope"></i> E-mail: <a href="mailto:han.jin@1a23.com" itemprop="email">han.jin@1A23.com</a></span>
+                    <span class="namecard-tag"><i class="fa fa-fw fa-envelope"></i> E-mail: <a href="mailto:<?=$email?>" itemprop="email"><?=$email?></a></span>
                 </div>
             </div>
         </div>
@@ -58,7 +58,13 @@
                         <div class="section-title ribbon-left-content ribbon-left-green-content">教育水平</div>
                     </div>
                     <p>
-                        <strong class="text-lgreen"><abbr title="新加坡—剑桥通用学业水平测试（高级）">GCE 'A' Level</abbr> (待定), <time>2015 年</time></strong><br>
+                        <strong class="text-lgreen"><abbr title="理学学士">BSc</abbr> 计算机与软件系统（进行中，<time>2019</time>）</strong><br>
+                        — <span itemprop="alumniOf" itemscope itemtype="http://schema.org/EducationalOrganization">
+                            <link href="https://www.unimelb.edu.au/" itemprop="url"><span itemprop="name">澳大利亚墨尔本大学</span>
+                        </span>
+                    </p>
+                    <p>
+                        <strong class="text-lgreen"><abbr title="新加坡—剑桥通用学业水平测试（高级）">GCE 'A' Level</abbr>（<time>2015</time>）</strong><br>
                         — <span itemprop="alumniOf" itemscope itemtype="http://schema.org/EducationalOrganization">
                             <link href="http://ajc.edu.sg/" itemprop="url"><span itemprop="name">新加坡安德逊初级学院</span>
                         </span>
@@ -79,6 +85,7 @@
                             <i class="fa fa-circle"></i>
                             <i class="fa fa-circle"></i>
                             <i class="fa fa-circle"></i>
+                            <br> 母语
                         </dd>
                         <dt class="text-lorange">英文</dt>
                         <dd class="dd-stars-lorange">
@@ -90,17 +97,19 @@
                             <i class="fa fa-circle"></i>
                             <i class="fa fa-circle-o"></i>
                             <i class="fa fa-circle-o"></i>
+                            <br> 专业水平，雅思学术 8.0
                         </dd>
                         <dt class="text-lorange">日文</dt>
                         <dd class="dd-stars-lorange">
                             <i class="fa fa-circle"></i>
                             <i class="fa fa-circle"></i>
+                            <i class="fa fa-circle"></i>
+                            <i class="fa fa-circle"></i>
+                            <i class="fa fa-circle"></i>
                             <i class="fa fa-circle-o"></i>
                             <i class="fa fa-circle-o"></i>
                             <i class="fa fa-circle-o"></i>
-                            <i class="fa fa-circle-o"></i>
-                            <i class="fa fa-circle-o"></i>
-                            <i class="fa fa-circle-o"></i>
+                            <br> 中等
                         </dd>
                     </dl>
                 </section>
@@ -161,7 +170,7 @@
                             <i class="fa fa-circle-o"></i>
                             <i class="fa fa-circle-o"></i>
                         </dd>
-                        <dt>SQL</dt>
+                        <dt>C++</dt>
                         <dd class="dd-stars">
                             <i class="fa fa-circle"></i>
                             <i class="fa fa-circle"></i>
@@ -174,30 +183,29 @@
                     </dl>
                     <div class="section-subtitle section-subtitle-red">其他技能、使用工具、平台</div>
                     <div class="label-list">
-                        <span class="label label-red">C++</span>
-                        <span class="label label-red">Pascal</span>
-                        <span class="label label-red">Java</span>
+                        <span class="label label-red">SQL</span>
+                        <span class="label label-red">AngularJS</span>
                         <span class="label label-red">OS X</span>
                         <span class="label label-red">Linux/Unix</span>
                         <span class="label label-red">Windows</span>
                         <span class="label label-red">Android</span>
                         <span class="label label-red">Sass</span>
                         <span class="label label-red">Twig</span>
-                        <span class="label label-red">LaTeX</span>
                         <span class="label label-red">MVC Structure</span>
                         <span class="label label-red">RESTful API</span>
                         <span class="label label-red">Git</span>
-                        <span class="label label-red">Sublime Text 3</span>
-                        <span class="label label-red">Zsh</span>
                         <span class="label label-red">Markdown</span>
+                        <span class="label label-red">Sublime Text 3</span>
+                        <span class="label label-red">LaTeX</span>
+                        <span class="label label-red">Laravel</span>
+                        <span class="label label-red">Pascal</span>
+                        <span class="label label-red">Wordpress</span>
+                        <span class="label label-red">Zsh</span>
                         <span class="label label-red">Chrome Developer Tools</span>
                         <span class="label label-red">Visual Studio</span>
-                        <span class="label label-red">Regular Expression</span>
-                        <span class="label label-red">Vim</span>
+                        <span class="label label-red">RegEx</span>
                         <span class="label label-red">CodeIgniter</span>
-                        <span class="label label-red">Laravel</span>
                         <span class="label label-red">Twitter Bootstrap</span>
-                        <span class="label label-red">Wordpress</span>
                         <span class="label label-red">Django</span>
                         <span class="label label-red">Bolt CMS</span>
                         <span class="label label-red">HTTP</span>
@@ -206,6 +214,35 @@
                 </section>
                 <section>
                     <div class="section-title section-right-title section-title-dark">项目经验</div>
+                    <summary class="section-subtitle section-subtitle-dark">
+                        Eanois CMS — 基于 Laravel 的 CMS 内容管理系统
+                        <div class="section-subtitle-2 section-subtitle-dark">
+                            PHP · SQLite · Laravel · AngularJS · Sass · Eloquent<br>
+                            <a target="_blank" href="https://github.com/blueset/eanois">https://github.com/blueset/eanois</a>
+                        </div>
+                    </summary>
+                    <ul>
+                        <li>带有 Markdown 渲染和上传管理的完整 CMS 系统</li>
+                        <li>利用 PHP I18N 及外部 API 实现的跨语言 Slug 生成</li>
+                        <li>使用统一 API 和 AngularJS 实现的通用主题样式方案</li>
+                        <li>基于主题属性动态生成的 Sitemap 和 RSS 订阅源</li>
+                        <li>可延伸的单独分类/标签用模板设定</li>
+                        <li>获取远程 RSS 内容与本地内容合并</li>
+                        <li>HTML5 模式 AngularJS 前端</li>
+                    </ul>
+                    <summary class="section-subtitle section-subtitle-dark">
+                        EH Forwarder Bot — 可扩展的聊天服务隧道
+                        <div class="section-subtitle-2 section-subtitle-dark">
+                            Python 3 · 多线程 · Telegram Bot · 微信网页 API · 逆向工程<br>
+                            <a target="_blank" href="https://github.com/blueset/ehforwarderbot">https://github.com/blueset/ehforwarderbot</a>
+                        </div>
+                    </summary>
+                    <ul>
+                        <li>基于多线程的可扩展聊天机器人框架</li>
+                        <li>Python Queue 多线程间数据交换</li>
+                        <li>多媒体格式识别及转码</li>
+                        <li>与外部 API 及逆向工程接口进行交互</li>
+                    </ul>
                     <summary class="section-subtitle section-subtitle-dark">
                         歌语计划 — 一个歌词博客
                         <div class="section-subtitle-2 section-subtitle-dark">
@@ -271,7 +308,7 @@
                         <li>参与贡献了这个开源项目</li>
                         <li>了解了团队合作流程</li>
                         <li>单元测试</li>
-                        <li>Bug 反馈方式</li>
+                        <li>Bug 反馈流程</li>
                     </ul>
                 </section>
                 <section>
@@ -279,32 +316,32 @@
                     <div class="achievements">
                         <p>
                           <em>2015 年 9 月, </em><br>
-                          <strong class="section-subtitle-purple">Ace of Coders (新加坡国家信息技术序幕赛)</strong>, 
+                          <strong class="section-subtitle-purple">Ace of Coders (新加坡国家信息技术序幕赛)</strong>,
                           杰出选手奖.
                         </p>
                         <p>
                           <em>2015 年 6 月, </em><br>
-                          <strong class="section-subtitle-purple">新加坡青年网络安全锦标赛</strong>, 
+                          <strong class="section-subtitle-purple">新加坡青年网络安全锦标赛</strong>,
                           第一名 &amp; 最佳防御奖.
                         </p>
                         <p>
                           <em>2015 年 3 月, </em><br>
-                          <strong class="section-subtitle-purple">新加坡国家信息学奥林匹克竞赛</strong>, 
+                          <strong class="section-subtitle-purple">新加坡国家信息学奥林匹克竞赛</strong>,
                           铜牌.
                         </p>
                         <p>
                           <em>2014 年 6 月, </em><br>
-                          <strong class="section-subtitle-purple">SimTech 图像移动应用挑战赛</strong>, 
+                          <strong class="section-subtitle-purple">SimTech 图像移动应用挑战赛</strong>,
                           最受欢迎应用奖.
                         </p>
                         <p>
                           <em>2014 年 3 月, </em><br>
-                          <strong class="section-subtitle-purple">新加坡国家信息学奥林匹克竞赛</strong>, 
+                          <strong class="section-subtitle-purple">新加坡国家信息学奥林匹克竞赛</strong>,
                           铜牌.
                         </p>
                         <p>
                           <em>2013 年 7 月, </em><br>
-                          <strong class="section-subtitle-purple">新加坡国家信息技术俱乐部奖</strong>, 
+                          <strong class="section-subtitle-purple">新加坡国家信息技术俱乐部奖</strong>,
                           银牌.
                         </p>
                     </div>

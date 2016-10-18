@@ -64,6 +64,9 @@ footer{
 	padding: 20px 0;
 	background-color: #eee;
 	color: #999;
+	position: static;
+	bottom: 0;
+	width: 100%;
 }
 footer a{
 	color: #999
@@ -72,7 +75,7 @@ footer .fa-heart{
 	color: #E52A22;
 }
 .download{
-	padding: 30px 0;
+	padding: 40px 0;
 }
 .print-footer{
 	color: #999;
@@ -157,6 +160,12 @@ footer .fa-heart{
 	.col-print-xs-push-6 {
 	  left: 50%;
 	}
+	.col-print-xs-pull-8 {
+		right: 66.66666667%;
+	}
+	.col-print-xs-push-4 {
+		left: 33.33333333%;
+	}
 	h1, h3{
 		text-align: right;
 	}
@@ -178,5 +187,5 @@ footer .fa-heart{
 	.page-divider {
 		page-break-before: always;
 	}
-	
+
 }

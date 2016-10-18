@@ -71,7 +71,7 @@
                         <h2>Languages</h2>
                         <p><strong>Chinese: </strong>Native speaker. <br>
                             <strong>English: </strong>Professional, IELTS Academic 8.0. <br>
-                            <strong>Japanese: </strong>Elementary.</p>
+                            <strong>Japanese: </strong>Intermediate.</p>
                     </section>
                 </div>
                 <div class="col-md-8 col-print-xs-8 clearfix main">
@@ -107,6 +107,8 @@
                             <div class="col-md-10 col-print-xs-9">CodeIgniter &middot;
  Laravel &middot;
  Twitter Bootstraps &middot;
+ AngularJS &middot;
+ Sass &middot;
  Django
                             </div>
                         </div>
@@ -188,10 +190,10 @@
     <article>
       <div class="container">
             <div class="row">
-                <div class="col-md-8 col-print-xs-8 col-md-push-4 main">
+                <div class="col-md-8 col-print-xs-8 col-print-xs-push-4 col-md-push-4 main">
                     <section>
                         <h2 class="hidden-sc">Professional Experience <small>(cont'd)</small></h2>
-                        <h5>EH Forwarder Bot — A extendible chat tunnel between different services</h5>
+                        <h5>EH Forwarder Bot — An extensible chat tunnel between different services</h5>
                         <i>Python 3 · Threading · Telegram Bot · WeChat Web API · Reverse Engineering <br>
                         <a target="_blank" href="https://github.com/blueset/ehforwarderbot">https://github.com/blueset/ehforwarderbot</a></i>
                         <ul>
@@ -256,7 +258,7 @@
                       <br>
                     </div>
                 </div>
-                <div class="col-md-4 col-md-pull-8 col-print-xs-4  sidebar">
+                <div class="col-md-4 col-md-pull-8 col-print-xs-pull-8 col-print-xs-4  sidebar">
                     <section>
                         <h2>Achievements</h2>
                         <p>

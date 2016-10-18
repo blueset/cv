@@ -21,13 +21,13 @@
                     <?php if ($pdf): ?>
                     <a target="_blank" href="<?php=$pdfurl?>"><span class="fa-stack fa-lg"><i class="fa fa-circle fa-stack-2x"></i><i class="fa fa-download fa-stack-1x fa-inverse"></i></span></a>
                 <?php endif; ?>
-                    <!--<a href="index-zh-cn.php<?php if($has_para){echo "?".$parameter;} ?>"><span class="fa-stack fa-lg"><i class="fa fa-circle fa-stack-2x"></i><i class="fa fa-stack-1x fa-inverse">中</i></span></a>-->
+                    <a href="index-zh-cn.php<?php if($has_para){echo "?".$parameter;} ?>"><span class="fa-stack fa-lg"><i class="fa fa-circle fa-stack-2x"></i><i class="fa fa-stack-1x fa-inverse">中</i></span></a>
                 </div>
                 <img src="images/logo4square.svg" alt="" class="namecard-photo">
                 <div class="namecard-name" itemprop="name"><?=$name?></div>
                 <div class="namecard-contact">
                     <?php if ($phone): ?>
-                        <span class="namecard-tag"><i class="fa fa-fw fa-phone"></i> Phone: 
+                        <span class="namecard-tag"><i class="fa fa-fw fa-phone"></i> Phone:
                         <?= implode(" / ",array_map(function($v, $k){return '<a href="tel:'.$k.'">'.$v.'</a>';}, $phones, array_keys($phones))); ?>
                         </span>
                         <br/>
@@ -112,11 +112,11 @@
                             <i class="fa fa-circle"></i>
                             <i class="fa fa-circle"></i>
                             <i class="fa fa-circle"></i>
+                            <i class="fa fa-circle"></i>
                             <i class="fa fa-circle-o"></i>
                             <i class="fa fa-circle-o"></i>
                             <i class="fa fa-circle-o"></i>
-                            <i class="fa fa-circle-o"></i>
-                            <br> Basic reading and speaking
+                            <br> Intermediate
                         </dd>
                     </dl>
                 </section>
@@ -232,13 +232,13 @@
                         <li>Full CMS with Markdown parsing and upload management</li>
                         <li>Cross-language slug generation with PHP I18N and External API</li>
                         <li>Generic theming solution with unified API for AngularJS</li>
-                        <li>Dynamic Sitemap and RSS generation based on Theme config</li>
-                        <li>Extensible category/tag-specific template config</li>
+                        <li>Dynamic Sitemap and RSS generation based on theme config</li>
+                        <li>Extensible per-category/tag template config</li>
                         <li>Fetch external RSS content</li>
                         <li>AngularJS enabled front-end in HTML5 mode</li>
                     </ul>
                     <summary class="section-subtitle section-subtitle-dark">
-                        EH Forwarder Bot — A extendible chat tunnel between different services
+                        EH Forwarder Bot — An extensible chat tunnel between different services
                         <div class="section-subtitle-2 section-subtitle-dark">
                             Python 3 · Threading · Telegram Bot · WeChat Web API · Reverse Engineering<br>
                             <a target="_blank" href="https://github.com/blueset/ehforwarderbot">https://github.com/blueset/ehforwarderbot</a>
@@ -323,32 +323,32 @@
                     <div class="achievements">
                         <p>
                           <em>September 2015, </em><br>
-                          <strong class="section-subtitle-purple">Ace of Coders (National Infocomm Competition Face-off)</strong>, 
+                          <strong class="section-subtitle-purple">Ace of Coders (National Infocomm Competition Face-off)</strong>,
                           Outstanding Male Coder.
                         </p>
                         <p>
                           <em>June 2015, </em><br>
-                          <strong class="section-subtitle-purple">Cyber Defenders Discovery Camp Tournament</strong>, 
+                          <strong class="section-subtitle-purple">Cyber Defenders Discovery Camp Tournament</strong>,
                           First Position &amp; Best Defender.
                         </p>
                         <p>
                           <em>March 2015, </em><br>
-                          <strong class="section-subtitle-purple">National Olympiad in Informatics</strong>, 
+                          <strong class="section-subtitle-purple">National Olympiad in Informatics</strong>,
                           Bronze.
                         </p>
                         <p>
                           <em>June 2014, </em><br>
-                          <strong class="section-subtitle-purple">SimTech Experience and Challenge Vision-based Mobile Apps Competition</strong>, 
+                          <strong class="section-subtitle-purple">SimTech Experience and Challenge Vision-based Mobile Apps Competition</strong>,
                           Most Popular App.
                         </p>
                         <p>
                           <em>March 2014, </em><br>
-                          <strong class="section-subtitle-purple">National Olympiad in Informatics</strong>, 
+                          <strong class="section-subtitle-purple">National Olympiad in Informatics</strong>,
                           Bronze.
                         </p>
                         <p>
                           <em>July 2013, </em><br>
-                          <strong class="section-subtitle-purple">National Infocomm Club Award</strong>, 
+                          <strong class="section-subtitle-purple">National Infocomm Club Award</strong>,
                           Silver.
                         </p>
                     </div>

@@ -3,7 +3,7 @@ Software/Web Development Intern
 <hr>
 
 [View Full Version](https://cv.1a23.com)
-<!--[中文简历](https://cv.1a23.com/index-zh-cn.php)-->
+[中文简历](https://cv.1a23.com/index-zh-cn.php)
 
 * Website: [1A23.com](https://1a23.com)
 * Github: [Blueset](https://github.com/blueset)
@@ -30,7 +30,7 @@ Windows · OS X · Linux/Unix
 * __Methodologies__<br>
 MVC Infrastructure · RESTful API · Git Workflow
 * __Frameworks__<br>
-CodeIgniter · Laravel · Twitter Bootstraps · Django
+CodeIgniter · Laravel · Twitter Bootstraps · AngularJS · Sass · Django
 * __Networking__<br>
 TCP/IP · HTTP
 * __Tools__ <br>
@@ -79,5 +79,5 @@ _Python 3 · RESTful API · HTTP API Wrapping_<br>
 * HTML and XML parsing to Python Objects
 
 
->Please refer to the online CV for more details and the latest contact info. Online contact methods are preferred. 
+>Please refer to the online CV for more details and the latest contact info. Online contact methods are preferred.
 >Thank you and I am looking forward to working with you.
