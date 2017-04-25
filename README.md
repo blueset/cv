@@ -30,13 +30,21 @@ Windows · OS X · Linux/Unix
 * __Methodologies__<br>
 MVC Infrastructure · RESTful API · Git Workflow
 * __Frameworks__<br>
-CodeIgniter · Laravel · Twitter Bootstraps · AngularJS · Sass · Django
+Flask · CodeIgniter · Laravel · Twitter Bootstraps · AngularJS · SCSS · Django
 * __Networking__<br>
 TCP/IP · HTTP
 * __Tools__ <br>
-Sublime Text · Git · Bash · Markdown · Chrome Developer Tools · Visual Studio · Vim · RegEx
+Atom · Sublime Text · Git · Bash · Markdown · Chrome Developer Tools · Visual Studio · Vim · RegEx
 
 ## Professional Experience ([more...](https://cv.1a23.com/#projects))
+
+#### EH Forwarder Bot — A extendible chat tunnel between different services
+_Python 3 · Threading · Telegram Bot · WeChat Web API · Reverse Engineering_
+[https://github.com/blueset/ehforwarderbot](https://github.com/blueset/ehforwarderbot)  
+* Extendible Bot framework based on threading
+* Efficient inter-thread communication with Python Queue
+* Multimedia identification, format/encoding conversion
+* Interact with external API and reversed engineered interfaces
 
 #### Eanois CMS — A CMS system based on Laravel
 _PHP · SQLite · Laravel · AngularJS · Sass · Eloquent_  
@@ -48,14 +56,6 @@ _PHP · SQLite · Laravel · AngularJS · Sass · Eloquent_
 * Extensible category/tag-specific template config
 * Fetch external RSS content
 * AngularJS enabled front-end in HTML5 mode
-
-#### EH Forwarder Bot — A extendible chat tunnel between different services
-_Python 3 · Threading · Telegram Bot · WeChat Web API · Reverse Engineering_
-[https://github.com/blueset/ehforwarderbot](https://github.com/blueset/ehforwarderbot)  
-* Extendible Bot framework based on threading
-* Efficient inter-thread communication with Python Queue
-* Multimedia identification, format/encoding conversion
-* Interact with external API and reversed engineered interfaces
 
 #### Project Lyricova — A blog system focused on lyrics
 _PHP · SQL · CodeIgniter · HTML · CSS · JavaScript_<br>

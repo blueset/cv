@@ -120,6 +120,29 @@
                         </dd>
                     </dl>
                 </section>
+                <section class="involvements">
+                    <div class="ribbon-left ribbon-left-blue">
+                        <div class="section-title ribbon-left-content ribbon-left-blue-content">Involvements</div>
+                    </div>
+                    <p>
+                        <strong class="text-lblue">President</strong>, <time><em>2017 ~ now</em></time><br>
+                        — <span>
+                            <link href="https://umcpc.org/" itemprop="url"><span itemprop="name">University of Melbourne Competitive Programming Club</span>
+                        </span>
+                    </p>
+                    <p>
+                        <strong class="text-lblue">Developer</strong>, <time><em>2017 ~ now</em></time><br>
+                        — <span>
+                            <link href="https://cissa.com.au/" itemprop="url"><span itemprop="name">University of Melbourne Computing and Infomation System Student Association</span>
+                        </span>
+                    </p>
+                    <p>
+                        <strong class="text-lblue">President of Programming Department</strong>, <time><em>2015 ~ 2016</em></time><br>
+                        — <span>
+                            <span itemprop="name">Anderson Junior College Computing Club (cXtreme)</span>
+                        </span>
+                    </p>
+                </section>
             </div>
             <div class="col-md-8">
                 <section>
@@ -192,11 +215,13 @@
                     <div class="label-list">
                         <span class="label label-red">SQL</span>
                         <span class="label label-red">AngularJS</span>
+                        <span class="label label-red">Laravel</span>
+                        <span class="label label-red">Flask</span>
                         <span class="label label-red">OS X</span>
                         <span class="label label-red">Linux/Unix</span>
                         <span class="label label-red">Windows</span>
                         <span class="label label-red">Android</span>
-                        <span class="label label-red">Sass</span>
+                        <span class="label label-red">SCSS</span>
                         <span class="label label-red">Twig</span>
                         <span class="label label-red">MVC Structure</span>
                         <span class="label label-red">RESTful API</span>
@@ -204,12 +229,10 @@
                         <span class="label label-red">Markdown</span>
                         <span class="label label-red">Sublime Text 3</span>
                         <span class="label label-red">LaTeX</span>
-                        <span class="label label-red">Laravel</span>
-                        <span class="label label-red">Pascal</span>
+                        <span class="label label-red">Atom</span>
                         <span class="label label-red">Wordpress</span>
                         <span class="label label-red">Zsh</span>
                         <span class="label label-red">Chrome Developer Tools</span>
-                        <span class="label label-red">Visual Studio</span>
                         <span class="label label-red">RegEx</span>
                         <span class="label label-red">CodeIgniter</span>
                         <span class="label label-red">Twitter Bootstrap</span>
@@ -221,6 +244,20 @@
                 </section>
                 <section id="projects">
                     <div class="section-title section-right-title section-title-dark">Professional Experience</div>
+                    <summary class="section-subtitle section-subtitle-dark">
+                        EH Forwarder Bot — An extensible chat tunnel between different services
+                        <div class="section-subtitle-2 section-subtitle-dark">
+                            Python 3 · Threading · Telegram Bot · WeChat Web API · Reverse Engineering<br>
+                            <a target="_blank" href="https://github.com/blueset/ehforwarderbot">https://github.com/blueset/ehforwarderbot</a>
+                        </div>
+                    </summary>
+                    <ul>
+                        <li>Extendible Bot framework based on threading</li>
+                        <li>Efficient inter-thread communication with Python Queue</li>
+                        <li>Multimedia identification, format/encoding conversion</li>
+                        <li>Interact with external API and reversed engineered interfaces</li>
+                        <li>Completely documented with tutorial and API specifications</li>
+                    </ul>
                     <summary class="section-subtitle section-subtitle-dark">
                         Eanois CMS — A CMS system based on Laravel
                         <div class="section-subtitle-2 section-subtitle-dark">
@@ -236,19 +273,6 @@
                         <li>Extensible per-category/tag template config</li>
                         <li>Fetch external RSS content</li>
                         <li>AngularJS enabled front-end in HTML5 mode</li>
-                    </ul>
-                    <summary class="section-subtitle section-subtitle-dark">
-                        EH Forwarder Bot — An extensible chat tunnel between different services
-                        <div class="section-subtitle-2 section-subtitle-dark">
-                            Python 3 · Threading · Telegram Bot · WeChat Web API · Reverse Engineering<br>
-                            <a target="_blank" href="https://github.com/blueset/ehforwarderbot">https://github.com/blueset/ehforwarderbot</a>
-                        </div>
-                    </summary>
-                    <ul>
-                        <li>Extendible Bot framework based on threading</li>
-                        <li>Efficient inter-thread communication with Python Queue</li>
-                        <li>Multimedia identification, format/encoding conversion</li>
-                        <li>Interact with external API and reversed engineered interfaces</li>
                     </ul>
                     <summary class="section-subtitle section-subtitle-dark">
                         Project Lyricova — A blog system focused on lyrics

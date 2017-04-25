@@ -79,14 +79,13 @@
                         <h2>Technical Skills</h2>
                         <div class="row">
                             <div class="col-md-2 col-print-xs-3"><b>Languages</b></div>
-                            <div class="col-md-10 col-print-xs-9">Python 3 &middot;
- PHP &middot;
+                            <div class="col-md-10 col-print-xs-9"><u>Python 3</u> &middot;
+                                <u>C++ / C</u> &middot;
  HTML &middot;
  CSS &middot;
+ <u>PHP</u> &middot;
  JavaScript &middot;
- SQL &middot;
- C++ &middot;
- Pascal
+ SQL
                             </div>
                         </div>
                         <div class="row">
@@ -104,11 +103,13 @@
                         </div>
                         <div class="row">
                             <div class="col-md-2 col-print-xs-3"><b>Frameworks</b></div>
-                            <div class="col-md-10 col-print-xs-9">CodeIgniter &middot;
+                            <div class="col-md-10 col-print-xs-9">
+ Flask &middot;
  Laravel &middot;
+ SCSS &middot;
  Twitter Bootstraps &middot;
  AngularJS &middot;
- Sass &middot;
+ CodeIgniter &middot;
  Django
                             </div>
                         </div>
@@ -118,12 +119,13 @@
                         </div>
                         <div class="row">
                             <div class="col-md-2 col-print-xs-3"><b>Tools</b></div>
-                            <div class="col-md-10 col-print-xs-9">Sublime Text &middot;
+                            <div class="col-md-10 col-print-xs-9">
+ Atom &middot;
+ Sublime Text &middot;
  Git &middot;
  Bash &middot;
  Markdown &middot;
  Chrome Developer Tools &middot;
- Visual Studio &middot;
  Vim &middot;
  RegEx
                             </div>
@@ -131,6 +133,16 @@
                     </section>
                     <section>
                         <h2>Professional Experience</h2>
+                        <h5>EH Forwarder Bot — An extensible chat tunnel between different services</h5>
+                        <i>Python 3 · Threading · Telegram Bot · WeChat Web API · Reverse Engineering <br>
+                        <a target="_blank" href="https://github.com/blueset/ehforwarderbot">https://github.com/blueset/ehforwarderbot</a></i>
+                        <ul>
+                            <li>Extendible Bot framework based on threading</li>
+                            <li>Efficient inter-thread communication with Python Queue</li>
+                            <li>Multimedia identification, format/encoding conversion</li>
+                            <li>Interact with external API and reversed engineered interfaces</li>
+                            <li>Completely documented with tutorial and API specifications</li>
+                        </ul>
                         <h5>Eanois CMS — A CMS system based on Laravel</h5>
                         <i>PHP · SQLite · Laravel · AngularJS · Sass · Eloquent<br>
                           <a target="_blank" href="https://github.com/blueset/eanois">https://github.com/blueset/eanois</a></i>
@@ -143,21 +155,7 @@
                             <li>Fetch external RSS content</li>
                             <li>AngularJS enabled front-end in HTML5 mode</li>
                         </ul>
-                        <h5>
-                            1A23 Service Bot &mdash; A Telegram Chatbot as a school information portal
-                        </h5>
-                        <i>Python 3 &middot;
- RESTful API &middot;
- HTTP API Wrapping <br><a href="https://github.com/blueset/svcbot1a23">https://github.com/blueset/SvcBot1A23</a></i>
-                        <ul>
-                            <li>Python on Apache with WSGI interface</li>
-                            <li>API wrapping as a Python module</li>
-                            <li>Deep integration with Telegram Bot API</li>
-                            <li>Reverse engineered API from Android Apps</li>
-                            <li>User login emulation in Python</li>
-                            <li>Printable timetable generator with Python GD library</li>
-                            <li>HTML and XML parsing to Python Objects</li>
-                        </ul>
+
                     </section>
                 </div>
             </div>
@@ -178,8 +176,8 @@
             <div class="row">
                 <div class="heading col-print-xs-9 col-xs-push-3 ">
                     <h3 id="name">
-                      <small>Software/Web Development Intern</small> <?=$name?>
-</h3>
+                        <small>Software/Web Development Intern</small> <?=$name?>
+                    </h3>
                 </div>
                 <div class="tags col-print-xs-3 col-xs-pull-9">
                     <div class="tag">Page 2</div>
@@ -193,15 +191,22 @@
                 <div class="col-md-8 col-print-xs-8 col-print-xs-push-4 col-md-push-4 main">
                     <section>
                         <h2 class="hidden-sc">Professional Experience <small>(cont'd)</small></h2>
-                        <h5>EH Forwarder Bot — An extensible chat tunnel between different services</h5>
-                        <i>Python 3 · Threading · Telegram Bot · WeChat Web API · Reverse Engineering <br>
-                        <a target="_blank" href="https://github.com/blueset/ehforwarderbot">https://github.com/blueset/ehforwarderbot</a></i>
+                        <h5>
+                            1A23 Service Bot &mdash; A Telegram Chatbot as a school information portal
+                        </h5>
+                        <i>Python 3 &middot;
+ RESTful API &middot;
+ HTTP API Wrapping <br><a href="https://github.com/blueset/svcbot1a23">https://github.com/blueset/SvcBot1A23</a></i>
                         <ul>
-                            <li>Extendible Bot framework based on threading</li>
-                            <li>Efficient inter-thread communication with Python Queue</li>
-                            <li>Multimedia identification, format/encoding conversion</li>
-                            <li>Interact with external API and reversed engineered interfaces</li>
+                            <li>Python on Apache with WSGI interface</li>
+                            <li>API wrapping as a Python module</li>
+                            <li>Deep integration with Telegram Bot API</li>
+                            <li>Reverse engineered API from Android Apps</li>
+                            <li>User login emulation in Python</li>
+                            <li>Printable timetable generator with Python GD library</li>
+                            <li>HTML and XML parsing to Python Objects</li>
                         </ul>
+
                         <h5>
                             Project Lyricova — A blog system focused on lyrics
                         </h5>
@@ -245,7 +250,7 @@
                             <a target="_blank" href="https://github.com/ChrisBoesch/singpathfire">https://github.com/ChrisBoesch/singpathfire</a>
                         </i>
                         <ul>
-                            <li>Contributed in the project</li>
+                            <li>Contributed to the project</li>
                             <li>Group project workflow</li>
                             <li>Unit testing</li>
                             <li>Bug report method</li>
@@ -255,10 +260,26 @@
 
                     <div class="hidden-sc">
                       <br>
-                      <br>
                     </div>
                 </div>
                 <div class="col-md-4 col-md-pull-8 col-print-xs-pull-8 col-print-xs-4  sidebar">
+                    <section>
+                        <h2>Involvements</h2>
+                        <p>
+                            <em>2017 —</em>, <br>
+                            <strong>President</strong>, UniMelb Competitive Programming Club
+                        </p>
+                        <p>
+                            <em>2017 —</em>, <br>
+                            <strong>Developer</strong>, UniMelb Computing and Infomation System
+                            Student Association
+                        </p>
+                        <p>
+                            <em>2015 — 2016</em>, <br>
+                            <strong>President of Programming Department</strong>,
+                            Anderson JC Computing Club
+                        </p>
+                    </section>
                     <section>
                         <h2>Achievements</h2>
                         <p>
